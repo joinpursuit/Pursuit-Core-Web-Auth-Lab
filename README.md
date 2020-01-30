@@ -23,13 +23,15 @@ Create a frontend and backend with authentication that allows users to register,
 
 ## Getting Started
 
-1. Create an express application on your local machine.
-1. Using create-react-app, make a new react project. You may make it in a sub-directory of the express app, or in a separate directory.
+1. Fork this repository
+1. Clone the forked repository to your computer.
+1. Create an express application on your local machine **in the cloned directory**
+1. Using create-react-app, make a new react app in a sub-directory of the express app.
 1. Fulfill the listed technical requirements below.
 
 ## Deliverables
 
-1 or 2 repos and applications.
+A pull request on this repository with a working application.
 
 ## Technical Requirements
 
@@ -46,15 +48,15 @@ Create a frontend and backend with authentication that allows users to register,
     * list items (private routes)
         * should display a list of all registered users
 
-
-
 * Bonus: add logout functionality
-* Bonus 2: add functionality to create, read, update, and delete a tasks for each logged in user
+* Bonus 2: add functionality to create, read, update, and delete a task for each logged in user
 * Bonus 3: logged in users should only be able to see tasks that they've created, not everyone elses.
+
+This lab is two parts, and is meant to be split into two (or more) class blocks. It's suggested that you work on the backend first, then build out the frontend.
 
 ## Submission Guidelines
 
-- Fellows should submit a pull request with their finished application to this repository. If you have two separate repos, make two pull requests and label each one appropriately (e.g. front-end and back-end).
+- Fellows should submit a pull request with their finished application to this repository.
 
 ### Resources
 
